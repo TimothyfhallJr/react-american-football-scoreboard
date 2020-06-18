@@ -19,6 +19,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.6rem;
+background: black;
 }
 
 code {
@@ -27,10 +28,13 @@ code {
 }
 
 button {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
   border: none;
   padding: 1rem 2rem;
-  margin: 0;
+  margin: 10px;
   text-decoration: none;
   background: #414141;
   color: #ffffff;
